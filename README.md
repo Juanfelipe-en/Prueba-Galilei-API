@@ -8,7 +8,7 @@ Backend (FastAPI) + Frontend (React) para buscar en Wikilibros y generar pregunt
 ## Requisitos
 - Python 3.11+
 - Node 18+
-
+## Como Ejecutar:
 ### Backend
 ```bash
 cd backend
