@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Python (en cualquier subcarpeta)
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+
+# Node (en cualquier subcarpeta)
+**/node_modules/
+**/dist/
+
+# Entornos y variables
+**/.venv/
+**/venv/
+
+!.env.example        # permite subir plantillas
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/pip-log.txt
+
+# Tests / coverage
+**/.pytest_cache/
+**/.coverage
+**/.coverage.*
+**/coverage/
+
+# Otros builds/caches
+**/build/
+**/.parcel-cache/

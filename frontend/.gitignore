@@ -1,0 +1,19 @@
+# Dependencias y builds
+node_modules/
+dist/
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches / herramientas
+.cache/
+.eslintcache
+
+# OS / editores
+.DS_Store
+.vscode/
+.idea/
