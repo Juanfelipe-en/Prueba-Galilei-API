@@ -1,18 +1,21 @@
-# Galilei Quiz
-Backend (FastAPI) + Frontend (React) para buscar en Wikilibros y generar preguntas con OpenRouter.
+# Prueba de Galilei de implementación de API
+Backend (FastAPI) + Frontend (React) para buscar en Wikilibros y generar preguntas con la API de IA de OpenRouter.
 
 ## Estructura
 - backend/: API (FastAPI) y servicios (Wikilibros, LLM)
 - frontend/: React (Vite) que consume `/quiz`
 
-## Desarrollo
+## Requisitos
+- Python 3.11+
+- Node 18+
+
 ### Backend
 ```bash
 cd backend
 python -m venv .venv
 source .venv/bin/activate   # Win: .venv\\Scripts\\Activate
 python -m pip install -r requirements.txt
-python -m uvicorn app.main:app --reload --env-file .env
+python -m uvicorn app.main:app --reload
 ```
 ### Frontend
 ```bash
