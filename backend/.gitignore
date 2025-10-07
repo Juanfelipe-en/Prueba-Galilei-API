@@ -8,3 +8,5 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+.env/
+!.env.example        # permite subir plantillas

@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .routers import search, books, quiz
 
-app = FastAPI(title="Galilei Quiz API (mínimo)", version="0.1.0")
+app = FastAPI(title="Prueba Galilei API", version="0.1.0")
 
 # CORS abierto para facilitar desarrollo de frontend
 app.add_middleware(
