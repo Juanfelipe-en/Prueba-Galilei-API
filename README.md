@@ -10,8 +10,11 @@ Backend (FastAPI) + Frontend (React) para buscar en Wikilibros y generar pregunt
 - Node 18+
 ## Como Ejecutar:
 ### Backend
+agregar APIKEY a .env.example
+
 ```bash
 cd backend
+cp .env.example .env
 python -m venv .venv
 source .venv/bin/activate   # Win: .venv\\Scripts\\Activate
 python -m pip install -r requirements.txt
