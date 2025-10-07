@@ -1,39 +1,28 @@
-# OS
+# --- SO / editores ---
 .DS_Store
 Thumbs.db
-
-# Editores
-.vscode/
 .idea/
+.vscode/
+*.code-workspace
 
-# Python (en cualquier subcarpeta)
-**/__pycache__/
-**/*.py[cod]
-**/*.so
+# --- Entornos / secretos ---
+.env
+.env.*
+!.env.example
 
-# Node (en cualquier subcarpeta)
-**/node_modules/
-**/dist/
+# --- Logs comunes ---
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Entornos y variables
-**/.venv/
-**/venv/
+# --- Cobertura / reports ---
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
 
-!.env.example        # permite subir plantillas
+# --- Python cache global ---
+__pycache__/
+*.py[cod]
 
-# Logs
-**/npm-debug.log*
-**/yarn-debug.log*
-**/yarn-error.log*
-**/pnpm-debug.log*
-**/pip-log.txt
-
-# Tests / coverage
-**/.pytest_cache/
-**/.coverage
-**/.coverage.*
-**/coverage/
-
-# Otros builds/caches
-**/build/
-**/.parcel-cache/

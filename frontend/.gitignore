@@ -1,20 +1,34 @@
-# Dependencias y builds
+# --- Node / Vite ---
 node_modules/
 dist/
+# cachés
+npm-cache/
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.parcel-cache/
+.esbuild/
+vite.svg
+node_modules/.vite/
 
-.env
-!.env.example        # permite subir plantillas
-# Logs
+# --- Logs ---
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Caches / herramientas
-.cache/
-.eslintcache
+# --- Env ---
+.env
+.env.*
+!.env.example
 
-# OS / editores
+# --- SO / editores ---
 .DS_Store
-.vscode/
+Thumbs.db
 .idea/
+.vscode/
+
+# Nota: NO ignores los lockfiles (package-lock.json / pnpm-lock.yaml / yarn.lock)
+# porque fijan versiones y evitan "works on my machine".

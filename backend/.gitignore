@@ -1,12 +1,43 @@
 
+# --- Python / FastAPI ---
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.so
 *.pyd
+.build/
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints
+
+# --- Virtual envs ---
 .venv/
 venv/
+env/
+
+# --- Cobertura / reports ---
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Secretos ---
+.env
+.env.*
+!.env.example
+
+# --- SO / editores ---
 .DS_Store
-.vscode/
+Thumbs.db
 .idea/
-.env/
-!.env.example        # permite subir plantillas
+.vscode/
+
