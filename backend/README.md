@@ -7,6 +7,8 @@ Backend para:
 3) Generar **preguntas tipo test** con **OpenRouter** (modelo `:free`).
 
 ## Arranque rápido
+Agregar APIKEY en .env.example
+
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
