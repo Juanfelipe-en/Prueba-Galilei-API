@@ -1,7 +1,7 @@
 
-# Galilei Quiz (mínimo) — Wikilibros → OpenRouter
+# Prueba de Galilei de implementación de API - Backend (FastAPI)
 
-Backend mínimo para:
+Backend para:
 1) Buscar por palabra en **Wikilibros**.
 2) Obtener HTML y **texto** del mejor match.
 3) Generar **preguntas tipo test** con **OpenRouter** (modelo `:free`).

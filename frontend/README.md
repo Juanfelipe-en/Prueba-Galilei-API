@@ -1,4 +1,4 @@
-# Galilei Quiz — Frontend (React + Vite)
+# Prueba de Galilei de implementación de API — Frontend (React + Vite)
 
 Interfaz mínima para consumir tu backend de FastAPI:
 - Input de **palabra clave** (Wikilibros)
